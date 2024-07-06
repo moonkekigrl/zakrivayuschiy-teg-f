@@ -140,7 +140,7 @@ main {
 }
 
 @supports ((text-stroke: 1px var(--text-shadow-color)) or (-webkit-text-stroke: 1px var(--text-shadow-color))) {
-  .card_logo  {
+  .card_logo {
     -webkit-text-stroke: 1px var(--text-shadow-color);
     text-shadow: none;
   }
