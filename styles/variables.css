@@ -16,9 +16,8 @@
     --sparks-color: #FF0000;
     --accent-font: 'PressStart2P-Regular', sans-serif;
     --main-text-font: 'Inter-Variable', sans-serif;
-    --content-image: url(../images/food-truck.png);
     --bg-image:
         repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
         repeating-linear-gradient(to top, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
         linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-}/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+}

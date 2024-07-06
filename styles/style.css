@@ -103,7 +103,7 @@ main {
 }
 
 .main_subheading {
-  font-weight: 700;
+  font-variation-settings: wght 700;
   font-size: 18px;
   margin: 3.5px auto 6px 10px;
 }
@@ -112,7 +112,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 25px; 
-  font-weight: 400;
+  font-variation-settings: wght 400;
   font-size: 18px;
   line-height: 117%;
   margin: 27px;
@@ -139,7 +139,7 @@ main {
   0 -1px var(--text-shadow-color);
 }
 
-@supports((text-stroke: 1px var(--text-shadow-color)) or (-webkit-text-stroke: 1px var(--text-shadow-color))) {
+@supports ((text-stroke: 1px var(--text-shadow-color)) or (-webkit-text-stroke: 1px var(--text-shadow-color))) {
   .card_logo  {
     -webkit-text-stroke: 1px var(--text-shadow-color);
     text-shadow: none;
@@ -398,23 +398,4 @@ main {
     width: 45px;
   }
 } 
-/* Здесь вы напишете основную часть стилей страницы.
 
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ theme-dark — класс тёмной темы
-✦ theme-light — класс светлой темы
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
-
-Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
-
-*/
-
-.page {
-  min-inline-size: 320px;
-  min-block-size: 100dvb;
-}
