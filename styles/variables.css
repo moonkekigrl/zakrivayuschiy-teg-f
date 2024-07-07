@@ -16,6 +16,8 @@
     --sparks-color: #FF0000;
     --accent-font: 'PressStart2P-Regular', sans-serif;
     --main-text-font: 'Inter-Variable', sans-serif;
+    --main-font-weight-h: 'wght' 700;
+    --main-font-weight-p: 'wght' 400;
     --bg-image:
         repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
         repeating-linear-gradient(to top, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
