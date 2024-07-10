@@ -7,7 +7,6 @@
 :root.theme-light {
     --bg-color: #fff;
     --modal-bg-color: rgb(0 0 0/ 0.75);
-    --accent-color: #000;
     --border-color: #000;
     --text-color: #000;
     --button-fv-color: #000;
@@ -32,7 +31,6 @@
 :root.theme-dark {
     --bg-color: #000;
     --modal-bg-color: rgb(0 0 0/ 0.75);
-    --accent-color: #00cc14;
     --border-color: #00cc14;
     --text-color: #00cc14;
     --button-fv-color: #00cc14;
@@ -58,7 +56,6 @@
     :root {
         --bg-color: #000;
         --modal-bg-color: rgb(0 0 0/ 0.75);
-        --accent-color: #00cc14;
         --border-color: #00cc14;
         --text-color: #00cc14;
         --button-fv-color: #00cc14;

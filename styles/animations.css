@@ -32,7 +32,7 @@
   inset-inline-start: -58%;
   width: 100%;
   height: 100%;
-  animation: menu-button ease-in-out 1s infinite;
+  animation: menu-button 0.5s ease-in-out infinite alternate;
 }
   
 .theme-menu__button:disabled {
